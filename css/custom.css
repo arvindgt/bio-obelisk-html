@@ -303,7 +303,7 @@ body{
 @media(max-device-width: 480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse {
         max-height:200px
-    }
+    }   
 }
 
 .container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header {
@@ -415,7 +415,7 @@ body{
     font-weight: 700;
 }
 #toolbar {
-    background-color: #138496;
+    background-color: var(--bio-color);
     color: #fff;
     font-size: 12px;
 }
@@ -1094,7 +1094,6 @@ body.eduma-elegant #toolbar .header_full {
 
 .thim-have-any-question .email,.thim-have-any-question .mobile {
     display: inline-block;
-    margin-left: 11px;
     line-height: 30px
 }
 
@@ -1300,8 +1299,8 @@ body.eduma-elegant #toolbar .header_full {
 }
 
 #masthead .navigation {
-    padding-top: 25px;
-    padding-bottom: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
@@ -2661,7 +2660,7 @@ body.thim-popup-active #masthead,body.thim-search-active #masthead {
     .navigation .navbar-nav>li>a,.navigation .navbar-nav>li>span {
         text-transform: uppercase;
         position: relative;
-            padding: 11px 15px 29px;
+        padding: 11px 15px;
     }
 
     .navigation .navbar-nav>li>a.icon-toggle,.navigation .navbar-nav>li>span.icon-toggle {
@@ -2686,8 +2685,11 @@ body.thim-popup-active #masthead,body.thim-search-active #masthead {
         padding-right: 0
     }
 
-    .navigation .navbar-nav>li:not(.menu-item-has-children):last-child>a:before,.navigation .navbar-nav>li:not(.menu-item-has-children):last-child>span:before {
+    .navigation .navbar-nav>li:not(.menu-item-has-children):last-child>span:before {
         right: 0
+    }
+    .navigation .navbar-nav>li:not(.menu-item-has-children):last-child>a:before{
+         right: -14px;
     }
 
     .header_v5 .navigation .navbar-nav>li {
@@ -2770,15 +2772,18 @@ body.thim-popup-active #masthead,body.thim-search-active #masthead {
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-.menu-main-menu li.menu-item a:hover:before, .menu-main-menu li.menu-item .current a:before {
+.menu-main-menu li.menu-item a:hover:before, 
+.menu-main-menu li.menu-item span:hover:before,
+.menu-main-menu li.menu-item .current a:before {
     left: 0;
     right: 0;
     opacity: 1;
 }
-.menu-main-menu li.menu-item a:before {
+.menu-main-menu li.tc-menu-depth-0 > a:before,
+.menu-main-menu li.tc-menu-depth-0 > span:before {
   left: 20%;
   right: 20%;
-      top: 36%;
+  top: 47%;
   content: '';
   border-left: 12px solid #0056b3;
   border-right: 12px solid #0056b3;
@@ -2988,6 +2993,9 @@ body.thim-popup-active #masthead,body.thim-search-active #masthead {
 
 .site-header.header_v2 .navigation .width-logo img,.site-header.header_v2 .navigation .width-navigation img {
     margin-bottom: 0
+}
+.navigation .width-logo img, .navigation .width-navigation img {
+     margin-bottom: 0
 }
 
 .site-header.header_v2 .width-navigation {
@@ -3332,11 +3340,19 @@ body.mobile-menu-open .mobile-menu-wrapper {
     }
 }
     @media(max-width: 480px) {
-.widget_text{
+        .widget_text{
             display: none;
         }
         .brand-logo{
             width: 50%;
+        }
+        .bio-vision{
+            text-align: center !important;
+        }
+        .bio-slider{
+            height: auto;
+            margin-top: 70px;
+            padding: 20px 0px;
         }
     }
 @supports(-ms-ime-align:auto) {
@@ -3642,8 +3658,8 @@ body.mobile-menu-open .mobile-menu-wrapper {
 
 /* slider section */
 .bio-slider{
-     width: 100%;
-    height: 92vh;
+    width: 100%;
+    height: 97vh;
     background-color: var(--slider-background);
     background-image: url(../images/bioobselink-Recovered_06.png);
     background-position: top center;
@@ -3714,6 +3730,18 @@ body.mobile-menu-open .mobile-menu-wrapper {
 .footer{
     background: #2d6282;
 }
+
+ @media(max-width: 480px) {
+        .bio-slider{
+            height: auto;
+            margin-top: 70px;
+            padding: 20px 0px;
+        }
+        .slider-container h1{
+            font-size: 2.3rem;
+            color: var(--bio-color) !important;
+        }
+    }
 @media only screen and (min-width: 576px){
     .header-navbar{
         padding: 2.313rem 0;
@@ -3723,9 +3751,11 @@ body.mobile-menu-open .mobile-menu-wrapper {
         font-size: 1.2rem;
     }
     .brand-logo{
-        height: 36px;
+           height: 53px;
     }
-
+    .bio-slider{
+        margin-top: 96px;
+    }
     .slider-heading{
         color: var(--graytext-color);
         display: block;
@@ -3733,6 +3763,7 @@ body.mobile-menu-open .mobile-menu-wrapper {
     }
     .slider-subheading{
         display: block; 
+        font-weight: bold;
         font-size: 5rem;
         color: var(--common-text);       
     }
@@ -3800,7 +3831,7 @@ body.mobile-menu-open .mobile-menu-wrapper {
     height: 80vh
 }
 .register-page {
-    margin-top: 116px;
+        margin-top: 97px;
     height: 81vh;
     background-color: hsl(0deg 0% 98%);
 }
