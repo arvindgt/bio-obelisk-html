@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bio Obelisk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,700&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/course-details-page.css">
+</head>
+
+<body>
+    // https://eduma.thimpress.com/demo-2/courses/learnpress-101/
+    <header id="masthead" class="site-header sticky-header header_default header_v1 affix-top">
+        <div id="toolbar" class="toolbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="toolbar-container">
+                            <aside id="text-2" class="widget widget_text">
+                                <div class="textwidget">
+                                    <div class="thim-have-any-question">
+                                        <div class="mobile">
+                                            <i class="fa fa-phone"></i>
+                                            <a href="tel:00123456789" class="value">(00) 123 456 789</a>
+                                        </div>
+                                        <div class="email">
+                                            <i class="fa fa-envelope"></i>
+                                            <a href="mailto:bioobelisk@abc.com">bioobelisk@abc.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <aside id="login-popup-2" class="widget widget_login-popup">
+                                <div class="thim-widget-login-popup thim-widget-login-popup-base template-base">
+                                    <div class="thim-link-login thim-login-popup">
+                                        <a class="register js-show-popup" href="register.html">Register</a>
+                                        <a class="login js-show-popup" href="Login.html">Login</a>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thim-nav-wrapper container">
+            <div class="row">
+                <div class="navigation col-sm-12">
+                    <div class="tm-table">
+                        <div class="width-logo table-cell sm-logo">
+                            <a href="index.html" title="Education WP - Demo 2 - Education WordPress Theme" rel="home" class="thim-logo">
+                                <img src="./images/logo.png" class="brand-logo" alt="Bioobelisk logo">
+                            </a>
+                        </div>
+                        <nav class="width-navigation table-cell table-right">
+                            <ul class="nav navbar-nav menu-main-menu">
+                                <li class="menu-item tc-menu-depth-0">
+                                    <a href="#" class="tc-menu-inner">Home</a>
+                                </li>
+                                <li class="menu-item tc-menu-depth-0">
+                                    <a href="#" class="tc-menu-inner">About</a>
+                                </li>
+                                <li class="menu-item menu-item-has-children tc-menu-depth-0 tc-menu-layout-column tc-menu-column-hide-title">
+                                    <span class="tc-menu-inner">Courses</span>
+                                    <div class="tc-megamenu-wrapper tc-megamenu-holder mega-sub-menu sub-menu tc-columns-4">
+                                        <ul class="row">
+                                            <li class="menu-item menu-item-has-children col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 1</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3407  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Main Demo</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-home menu-item-3405  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Course Era</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3406  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Online School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5799  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Languages School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6946  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Crypto</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5808    col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 2</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-5810  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Courses Hub</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-4028  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Classic University</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-4202  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Modern University</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3435  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Ivy League</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6947  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo New Art</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5809    col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 3</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3898  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo New Edu</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5941  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Stanford</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5843  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Kindergarten</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3899  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo One Instructor</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6948  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Kid Art</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-6597    col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 4</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3436  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo New Instructor</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6598  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo React</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5943  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Edtech</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5942  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Grad School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6949  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Tech Camp</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item menu-item-has-children tc-menu-depth-0 tc-menu-layout-column tc-menu-column-hide-title">
+                                    <span class="tc-menu-inner">Long duration</span>
+                                    <div class="tc-megamenu-wrapper tc-megamenu-holder mega-sub-menu sub-menu tc-columns-4">
+                                        <ul class="row">
+                                            <li class="menu-item menu-item-has-children col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 1</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3407  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Main Demo</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-home menu-item-3405  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Course Era</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3406  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Online School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5799  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Languages School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6946  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Crypto</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5808    col-md-3 col-sm-12">
+
+
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5809    col-md-3 col-sm-12">
+
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item   menu-item-has-children menu-item-95  tc-menu-depth-0  ">
+                                    <span class="tc-menu-inner">Technical</span>
+                                    <span class="icon-toggle">
+                                        <i class="fa fa-angle-down"></i>
+                                    </span>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item   menu-item-5840   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Membership</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4451   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Portfolio</a>
+                                        </li>
+                                        <li class="menu-item  menu-item-object-forum menu-item-3437   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Forums</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2924   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">About Us</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">FAQs</a>
+                                        </li>
+                                        <li class="menu-item   menu-item-5830   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Sidebar Shop</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4528  tc-menu-depth-0  ">
+                                    <a href="#" class="tc-menu-inner">Blog</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-127  tc-menu-depth-0  ">
+                                    <a href="#" class="tc-menu-inner">Comment</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="page-title-area">
+        <div class="container">
+            <div class="page-title-content">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/">Courses</a>
+                    </li>
+                    <li class="active">Cancer Genomics and precision Oncology</li>
+                </ul>
+                <h2>Cancer Genomics and precision Oncology</h2>
+            </div>
+        </div>
+    </div>
+    <div class="course-details-page ptb-100">
+        <div class="container">
+            <div class="courses-details-header">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="courses-title">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy.</p>
+                        </div>
+                        <div class="courses-meta">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-folder2-open"></i>
+                                    <span>Category</span>
+                                    <a href="/single-courses-2#">Photography</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-people"></i>
+                                    <span>Students Enrolled</span>
+                                    <a href="/single-courses-2#">541,214</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-calendar-check"></i>
+                                    <span>Last Updated</span>
+                                    <a href="/single-courses-2#">01/14/2020</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="courses-price">
+                            <div class="courses-review">
+                                <div class="review-stars">
+                                    <i class="bx bi-star-fill"></i>
+                                    <i class="bx bi-star-fill"></i>
+                                    <i class="bx bi-star-fill"></i>
+                                    <i class="bx bi-star-fill"></i>
+                                    <i class="bx bi-star-fill"></i>
+                                </div>
+                                <span class="reviews-total d-inline-block">(3 reviews)</span>
+                            </div>
+                            <div class="price">$150</div>
+                            <a class="default-btn" href="/single-courses-2#">
+                                <i class="bi bi-person"></i> Buy Course
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="courses-details-image-style-two text-center">
+                        <img src="/images/cancer-genomics-xgen206.jpg" alt="image">
+                    </div>
+                    <div class="courses-details-desc-style-two">
+                        <h3>Description</h3>
+                        <p>
+                            <strong>Hi! Welcome to Photography Crash Course for Photographer, the only course you need to become
+                                a BI Analyst.</strong>
+                        </p>
+                        <p>Here are some more details of what you get with The Business Intelligence Analyst Course:</p>
+                        <ul class="description-features-list">
+                            <li>
+                                <strong>Introduction to Data and Data Science</strong> – Make sense of terms like business intelligence,
+                                traditional and big data, traditional statistical methods, machine learning, predictive analytics,
+                                supervised learning, unsupervised learning, reinforcement learning, and many more;</li>
+                            <li>
+                                <strong>Database theory</strong> – Before you start using SQL, it is highly beneficial to learn about
+                                the underlying database theory and acquire an understanding of why databases are created
+                                and how they can help us manage data;</li>
+                            <li>
+                                <strong>SQL</strong> – when you can work with SQL, it means you don’t have to rely on others sending
+                                you data and executing queries for you. You can do that on your own. This allows you to be
+                                independent and dig deeper into the data to obtain the answers to questions that might improve
+                                the way your company does its business;</li>
+                        </ul>
+                        <h3>Courses Video</h3>
+                        <div class="courses-curriculum">
+                            <h3>Python Introduction</h3>
+                            <ul>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">Python Introduction</span>
+                                        <div class="courses-meta">
+                                            <span class="questions">5 questions</span>
+                                            <span class="duration">01 Hour</span>
+                                            <span class="status">Preview</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3>Stepping into the World of Python</h3>
+                            <ul>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">NumPy Introduction</span>
+                                        <div class="courses-meta">
+                                            <span class="duration">15 Min</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">NumPy Getting Started</span>
+                                        <div class="courses-meta">
+                                            <span class="duration">30 Min</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">NumPy Creating Arrays</span>
+                                        <div class="courses-meta">
+                                            <span class="duration">45 Min</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">NumPy Array Indexing</span>
+                                        <div class="courses-meta">
+                                            <span class="questions">4 questions</span>
+                                            <span class="duration">1 Hour</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">NumPy Array Slicing</span>
+                                        <div class="courses-meta">
+                                            <span class="duration">1.5 Hour</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3>Python MySQL</h3>
+                            <ul>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">Python MySQL</span>
+                                        <div class="courses-meta">
+                                            <span class="duration">01 Hour</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">Python MySQL Create Database</span>
+                                        <div class="courses-meta">
+                                            <span class="questions">3 questions</span>
+                                            <span class="duration">1.1 Hour</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="courses-name">Python MySQL Create Table</span>
+                                        <div class="courses-meta">
+                                            <span class="duration">1.5 Hour</span>
+                                            <span class="status locked">
+                                                <i class="flaticon-password"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3>What you'll learn</h3>
+                        <div class="why-you-learn">
+                            <ul>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Become an expert in Statistics</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Boost your resume with skills</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Gather, organize, data</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Use data for improved</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Present information KPIs</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Perform quantitative</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Analyze current data</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Discover how to find trends</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Understand the fundamentals</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="bi bi-check-lg"></i>Use SQL to create, design</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3>Requirements</h3>
+                        <ul class="requirements-list">
+                            <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry.</li>
+                            <li>The standard Lorem Ipsum passage, used since the 1500s.</li>
+                        </ul>
+                        <h3>Who this course is for:</h3>
+                        <ul class="audience-list">
+                            <li>Beginners to programming and data science</li>
+                            <li>Students eager to learn about job opportunities in the field of data science</li>
+                            <li>Candidates willing to boost their resume by learning how to combine the knowledge of Statistics,
+                                SQL, and Tableau in a real-world working environment</li>
+                            <li>People interested in a Business Intelligence Analyst career</li>
+                        </ul>
+                        <h3>Meet Your Instructors</h3>
+                        <div class="courses-author">
+                            <div class="author-profile-header"></div>
+                            <div class="author-profile">
+                                <div class="author-profile-title">
+                                    <img src="/images/images2.jpg" class="shadow-sm rounded-circle" alt="image">
+                                    <div class="author-profile-title-details">
+                                        <div class="author-profile-details">
+                                            <h4>James Anderson</h4>
+                                            <span class="d-block">Photographer, Author, Teacher</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>James Anderson is a celebrated photographer, author, and teacher who brings passion to everything
+                                    he does.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div>
+                        <div class="courses-reviews">
+                            <h3>Course Rating</h3>
+                            <div class="rating">
+                                <span class="bx bxs-star checked"></span>
+                                <span class="bx bxs-star checked"></span>
+                                <span class="bx bxs-star checked"></span>
+                                <span class="bx bxs-star checked"></span>
+                                <span class="bx bxs-star"></span>
+                            </div>
+                            <div class="rating-count">
+                                <span>4.1 average based on 4 reviews.</span>
+                            </div>
+                            <div class="row">
+                                <div class="side">
+                                    <div>5 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-5"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>02</div>
+                                </div>
+                                <div class="side">
+                                    <div>4 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-4"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>03</div>
+                                </div>
+                                <div class="side">
+                                    <div>3 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-3"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>04</div>
+                                </div>
+                                <div class="side">
+                                    <div>2 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-2"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>05</div>
+                                </div>
+                                <div class="side">
+                                    <div>1 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-1"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="courses-review-comments">
+                            <h3>3 Reviews</h3>
+                            <div class="user-review">
+                                <img src="/images/images.jpg" alt="image">
+                                <div class="review-rating">
+                                    <div class="review-stars">
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                    </div>
+                                    <span class="d-inline-block">James Anderson</span>
+                                </div>
+                                <span class="d-block sub-comment">Excellent</span>
+                                <p>Very well built theme, couldn't be happier with it. Can't wait for future updates to see
+                                    what else they add in.</p>
+                            </div>
+                            <div class="user-review">
+                                <img src="/images/images2.jpg" alt="image">
+                                <div class="review-rating">
+                                    <div class="review-stars">
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bi-star-fill"></i>
+                                        <i class="bx bi-star-fill"></i>
+                                    </div>
+                                    <span class="d-inline-block">Sarah Taylor</span>
+                                </div>
+                                <span class="d-block sub-comment">Video Quality!</span>
+                                <p>Was really easy to implement and they quickly answer my additional questions!</p>
+                            </div>
+                            <div class="user-review">
+                                <img src="/images/images2.jpg" alt="image">
+                                <div class="review-rating">
+                                    <div class="review-stars">
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                    </div>
+                                    <span class="d-inline-block">David Warner</span>
+                                </div>
+                                <span class="d-block sub-comment">Perfect Coding!</span>
+                                <p>Stunning design, very dedicated crew who welcome new ideas suggested by customers, nice support.</p>
+                            </div>
+                            <div class="user-review">
+                                <img src="/images/images.jpg" alt="image">
+                                <div class="review-rating">
+                                    <div class="review-stars">
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bxs-star checked"></i>
+                                        <i class="bx bi-star-fill"></i>
+                                    </div>
+                                    <span class="d-inline-block">King Kong</span>
+                                </div>
+                                <span class="d-block sub-comment">Perfect Video!</span>
+                                <p>Stunning design, very dedicated crew who welcome new ideas suggested by customers, nice support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="courses-sidebar-sticky">
+                        <div class="courses-sidebar-information">
+                            <ul class="info">
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-teacher"></i> Instructor</span>James Anderson</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-time"></i> Duration</span>7 weeks</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-distance-learning"></i> Lessons</span>25</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-web"></i> Enrolled</span>255 students</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-html"></i> Language</span>English</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-caption"></i> Video Subtitle</span>English</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-lock"></i> Access</span>Lifetime</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-quiz"></i> Quizzes</span>Yes</div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="flaticon-certification"></i> Certificate</span>Yes</div>
+                                </li>
+                            </ul>
+                            <div class="btn-box">
+                                <a class="default-btn" href="/single-courses-2#">
+                                    <i class="bi bi-cart"></i> Add to Cart
+                                    <span></span>
+                                </a>
+                            </div>
+                            <div class="courses-share">
+                                <div class="share-info">
+                                    <span>Share This Course
+                                        <i class="bi bi-share-fill"></i>
+                                    </span>
+                                    <ul class="social-link">
+                                        <li>
+                                            <a href="#" class="d-block" target="_blank">
+                                                <i class="bi bi-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-block" target="_blank">
+                                                <i class="bi bi-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-block" target="_blank">
+                                                <i class="bi bi-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-block" target="_blank">
+                                                <i class="bi bi-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="footer pt-5 pb-5 mt-5">
+        <div class="container pt-5 pb-5">
+            <footer>
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                        <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="text-uppercase text-white">our adress</h5>
+                        <ul class="list-unstyled text-small">
+                            <li>
+                                <a class="text-white " href="#">Cool stuff</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Random feature</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Team feature</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Stuff for developers</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Another one</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Last time</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="text-uppercase text-white">Quick links</h5>
+                        <ul class="list-unstyled text-small">
+                            <li>
+                                <a class="text-white " href="#">Resource</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Resource name</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Another resource</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Final resource</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="text-uppercase text-white">News letter</h5>
+                        <ul class="list-unstyled text-small">
+                            <li>
+                                <a class="text-white " href="#">Team</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Locations</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Privacy</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+    </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+    crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js "></script>
+
+</html>

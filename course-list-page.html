@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bio Obelisk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,700&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/course-list-page.css">
+</head>
+
+<body>
+    // https://eduma.thimpress.com/demo-2/courses/learnpress-101/
+    <header id="masthead" class="site-header sticky-header header_default header_v1 affix-top">
+        <div id="toolbar" class="toolbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="toolbar-container">
+                            <aside id="text-2" class="widget widget_text">
+                                <div class="textwidget">
+                                    <div class="thim-have-any-question">
+                                        <div class="mobile">
+                                            <i class="fa fa-phone"></i>
+                                            <a href="tel:00123456789" class="value">(00) 123 456 789</a>
+                                        </div>
+                                        <div class="email">
+                                            <i class="fa fa-envelope"></i>
+                                            <a href="mailto:bioobelisk@abc.com">bioobelisk@abc.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <aside id="login-popup-2" class="widget widget_login-popup">
+                                <div class="thim-widget-login-popup thim-widget-login-popup-base template-base">
+                                    <div class="thim-link-login thim-login-popup">
+                                        <a class="register js-show-popup" href="register.html">Register</a>
+                                        <a class="login js-show-popup" href="Login.html">Login</a>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thim-nav-wrapper container">
+            <div class="row">
+                <div class="navigation col-sm-12">
+                    <div class="tm-table">
+                        <div class="width-logo table-cell sm-logo">
+                            <a href="index.html" title="Education WP - Demo 2 - Education WordPress Theme" rel="home" class="thim-logo">
+                                <img src="./images/logo.png" class="brand-logo" alt="Bioobelisk logo">
+                            </a>
+                        </div>
+                        <nav class="width-navigation table-cell table-right">
+                            <ul class="nav navbar-nav menu-main-menu">
+                                <li class="menu-item tc-menu-depth-0">
+                                    <a href="#" class="tc-menu-inner">Home</a>
+                                </li>
+                                <li class="menu-item tc-menu-depth-0">
+                                    <a href="#" class="tc-menu-inner">About</a>
+                                </li>
+                                <li class="menu-item menu-item-has-children tc-menu-depth-0 tc-menu-layout-column tc-menu-column-hide-title">
+                                    <span class="tc-menu-inner">Courses</span>
+                                    <div class="tc-megamenu-wrapper tc-megamenu-holder mega-sub-menu sub-menu tc-columns-4">
+                                        <ul class="row">
+                                            <li class="menu-item menu-item-has-children col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 1</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3407  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Main Demo</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-home menu-item-3405  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Course Era</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3406  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Online School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5799  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Languages School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6946  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Crypto</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5808    col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 2</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-5810  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Courses Hub</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-4028  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Classic University</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-4202  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Modern University</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3435  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Ivy League</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6947  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo New Art</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5809    col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 3</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3898  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo New Edu</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5941  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Stanford</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5843  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Kindergarten</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3899  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo One Instructor</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6948  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Kid Art</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-6597    col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 4</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3436  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo New Instructor</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6598  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo React</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5943  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Edtech</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5942  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Grad School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6949  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Tech Camp</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item menu-item-has-children tc-menu-depth-0 tc-menu-layout-column tc-menu-column-hide-title">
+                                    <span class="tc-menu-inner">Long duration</span>
+                                    <div class="tc-megamenu-wrapper tc-megamenu-holder mega-sub-menu sub-menu tc-columns-4">
+                                        <ul class="row">
+                                            <li class="menu-item menu-item-has-children col-md-3 col-sm-12">
+                                                <a href="#" class="tc-menu-inner tc-megamenu-title">Group 1</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item   menu-item-3407  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Main Demo</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-home menu-item-3405  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Course Era</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-3406  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Online School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-5799  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Languages School</a>
+                                                    </li>
+                                                    <li class="menu-item   menu-item-6946  tc-menu-depth-2 ">
+                                                        <a href="#" class="tc-menu-inner">Demo Crypto</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5808    col-md-3 col-sm-12">
+
+
+                                            </li>
+                                            <li class="menu-item   menu-item-has-children menu-item-5809    col-md-3 col-sm-12">
+
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item   menu-item-has-children menu-item-95  tc-menu-depth-0  ">
+                                    <span class="tc-menu-inner">Technical</span>
+                                    <span class="icon-toggle">
+                                        <i class="fa fa-angle-down"></i>
+                                    </span>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item   menu-item-5840   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Membership</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4451   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Portfolio</a>
+                                        </li>
+                                        <li class="menu-item  menu-item-object-forum menu-item-3437   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Forums</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2924   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">About Us</a>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">FAQs</a>
+                                        </li>
+                                        <li class="menu-item   menu-item-5830   ">
+                                            <a href="#" class="tc-menu-inner tc-megamenu-title">Sidebar Shop</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4528  tc-menu-depth-0  ">
+                                    <a href="#" class="tc-menu-inner">Blog</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-127  tc-menu-depth-0  ">
+                                    <a href="#" class="tc-menu-inner">Comment</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="page-title-area">
+        <div class="container">
+            <div class="page-title-content">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="active">Courses</li>
+                </ul>
+                <h2>Courses</h2>
+            </div>
+        </div>
+    </div>
+    <div class="course-list-page ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="course-grid-sorting row align-items-center">
+                        <div class="col-lg-8 col-md-6 result-count">
+                            <p>We found
+                                <span class="count">12</span> courses available for you</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 ordering">
+                            <div class="select-box">
+                                <select class="form-control">
+                                    <option>Sort By</option>
+                                    <option>Popularity</option>
+                                    <option>Latest</option>
+                                    <option>Price: low to high</option>
+                                    <option>Price: high to low</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-courses-box">
+                                <div class="courses-image">
+                                    <a class="d-block image" href="/">
+                                        <img src="/images/projects3.jpg" alt="image">
+                                    </a>
+                                    <a href="#" class="fav">
+                                        <i class="flaticon-heart"></i>
+                                    </a>
+                                    <div class="price shadow">$39</div>
+                                </div>
+                                <div class="courses-content">
+                                    <div class="course-author d-flex align-items-center">
+                                        <img src="/images/images2.jpg" class="rounded-circle" alt="image">
+                                        <span>Alex Morgan</span>
+                                    </div>
+                                    <h3>
+                                        <a href="/">Cancer Genomics and precision Oncology</a>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore.</p>
+                                    <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                        <li>
+                                            <i class="bi bi-journal-text"></i>
+                                            </i> 15 Lessons</li>
+                                        <li>
+                                            <i class="bi bi-people"></i> 145 Students</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-courses-box">
+                                <div class="courses-image">
+                                    <a class="d-block image" href="/">
+                                        <img src="/images/projects6.jpg" alt="image">
+                                    </a>
+                                    <a href="#" class="fav">
+                                        <i class="flaticon-heart"></i>
+                                    </a>
+                                    <div class="price shadow">$49</div>
+                                </div>
+                                <div class="courses-content">
+                                    <div class="course-author d-flex align-items-center">
+                                        <img src="/images/images2.jpg" class="rounded-circle" alt="image">
+                                        <span>Sarah Taylor</span>
+                                    </div>
+                                    <h3>
+                                        <a href="/">Genetic testing and sequencing technologies</a>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore.</p>
+                                    <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                        <li>
+                                            <i class="bi bi-journal-text"></i>
+                                            </i> 20 Lessons</li>
+                                        <li>
+                                            <i class="bi bi-people"></i> 100 Students</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-courses-box">
+                                <div class="courses-image">
+                                    <a class="d-block image" href="/">
+                                        <img src="/images/projects8.jpg" alt="image">
+                                    </a>
+                                    <a href="#" class="fav">
+                                        <i class="flaticon-heart"></i>
+                                    </a>
+                                    <div class="price shadow">$59</div>
+                                </div>
+                                <div class="courses-content">
+                                    <div class="course-author d-flex align-items-center">
+                                        <img src="/images/images2.jpg" class="rounded-circle" alt="image">
+                                        <span>David Warner</span>
+                                    </div>
+                                    <h3>
+                                        <a href="/">Novel therapics for chronic inflamation</a>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore.</p>
+                                    <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                        <li>
+                                            <i class="bi bi-journal-text"></i>
+                                            </i> 20 Lessons</li>
+                                        <li>
+                                            <i class="bi bi-people"></i> 150 Students</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-courses-box">
+                                <div class="courses-image">
+                                    <a class="d-block image" href="/">
+                                        <img src="/images/projects8.jpg" alt="image">
+                                    </a>
+                                    <a href="#" class="fav">
+                                        <i class="flaticon-heart"></i>
+                                    </a>
+                                    <div class="price shadow">$39</div>
+                                </div>
+                                <div class="courses-content">
+                                    <div class="course-author d-flex align-items-center">
+                                        <img src="/images/images2.jpg" class="rounded-circle" alt="image">
+                                        <span>Alex Morgan</span>
+                                    </div>
+                                    <h3>
+                                        <a href="/">Novel therapics for chronic inflamationcs</a>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore.</p>
+                                    <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                        <li>
+                                            <i class="bi bi-journal-text"></i>
+                                            </i> 15 Lessons</li>
+                                        <li>
+                                            <i class="bi bi-people"></i> 145 Students</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-courses-box">
+                                <div class="courses-image">
+                                    <a class="d-block image" href="/">
+                                        <img src="/images/projects9.jpg" alt="image">
+                                    </a>
+                                    <a href="#" class="fav">
+                                        <i class="flaticon-heart"></i>
+                                    </a>
+                                    <div class="price shadow">$49</div>
+                                </div>
+                                <div class="courses-content">
+                                    <div class="course-author d-flex align-items-center">
+                                        <img src="/images/images2.jpg" class="rounded-circle" alt="image">
+                                        <span>Sarah Taylor</span>
+                                    </div>
+                                    <h3>
+                                        <a href="/">Novel therapics for chronic inflamation</a>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore.</p>
+                                    <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                        <li>
+                                            <i class="bi bi-journal-text"></i>
+                                            </i> 20 Lessons</li>
+                                        <li>
+                                            <i class="bi bi-people"></i> 100 Students</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-courses-box">
+                                <div class="courses-image">
+                                    <a class="d-block image" href="/">
+                                        <img src="/images/projects3.jpg" alt="image">
+                                    </a>
+                                    <a href="#" class="fav">
+                                        <i class="flaticon-heart"></i>
+                                    </a>
+                                    <div class="price shadow">$99</div>
+                                </div>
+                                <div class="courses-content">
+                                    <div class="course-author d-flex align-items-center">
+                                        <img src="/images/images2.jpg" class="rounded-circle" alt="image">
+                                        <span>James Anderson</span>
+                                    </div>
+                                    <h3>
+                                        <a href="/">Novel therapics for chronic inflamation</a>
+                                    </h3>
+                                    <p>Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore.</p>
+                                    <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                        <li>
+                                            <i class="bi bi-journal-text"></i>
+                                            </i> 44 Lessons</li>
+                                        <li>
+                                            <i class="bi bi-people"></i> 440 Students</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="d-flex justify-content-center pagination-area">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link page-numbers" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link page-numbers current" href="#">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link page-numbers" href="#">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link page-numbers" href="#">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link page-numbers" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="widget-area">
+                        <div class="widget widget_search">
+                            <h3 class="widget-title">Search</h3>
+                            <form class="search-form">
+                                <label>
+                                    <span class="screen-reader-text">Search for:</span>
+                                    <input type="search" class="search-field" placeholder="Search...">
+                                </label>
+                                <button type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="widget widget_recent_courses">
+                            <h3 class="widget-title">Recent Courses</h3>
+                            <div class="item">
+                                <a class="thumb" href="/courses-6#">
+                                    <span class="fullimage cover bg1" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>$49.00</span>
+                                    <h4 class="title usmall">
+                                        <a href="/courses-6#">Novel therapics for chronic inflamation</a>
+                                    </h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="item">
+                                <a class="thumb" href="/courses-6#">
+                                    <span class="fullimage cover bg2" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>$59.00</span>
+                                    <h4 class="title usmall">
+                                        <a href="/courses-6#">Cancer Genomics and precision Oncology</a>
+                                    </h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="item">
+                                <a class="thumb" href="/courses-6#">
+                                    <span class="fullimage cover bg3" role="img"></span>
+                                </a>
+                                <div class="info">
+                                    <span>$69.00</span>
+                                    <h4 class="title usmall">
+                                        <a href="/courses-6#">Genetic testing and sequencing technologiess</a>
+                                    </h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="widget widget_tag_cloud">
+                            <h3 class="widget-title">Popular Tags</h3>
+                            <div class="tagcloud">
+                                <a href="/courses-6#">Genetics
+                                    <span class="tag-link-count">(3)</span>
+                                </a>
+                                <a href="/courses-6#">Cancer
+                                    <span class="tag-link-count">(3)</span>
+                                </a>
+                                <a href="/courses-6#">Chronic
+                                    <span class="tag-link-count">(2)</span>
+                                </a>
+                                <a href="/courses-6#">cancer
+                                    <span class="tag-link-count">(2)</span>
+                                </a>
+                                <a href="/courses-6#">
+                                    <span class="tag-link-count">(2)</span>
+                                </a>
+                                <a href="/courses-6#">imflamation
+                                    <span class="tag-link-count">(2)</span>
+                                </a>
+                                <a href="/courses-6#">Cancer
+                                    <span class="tag-link-count">(2)</span>
+                                </a>
+                                <a href="/courses-6#">Therapics
+                                    <span class="tag-link-count">(1)</span>
+                                </a>
+                                <a href="/courses-6#">Cancer
+                                    <span class="tag-link-count">(1)</span>
+                                </a>
+                                <a href="/courses-6#">Genetics
+                                    <span class="tag-link-count">(1)</span>
+                                </a>
+                                <a href="/courses-6#">imflamation
+                                    <span class="tag-link-count">(2)</span>
+                                </a>
+                                <a href="/courses-6#">Therapics
+                                    <span class="tag-link-count">(2)</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="footer pt-5 pb-5 mt-5">
+        <div class="container pt-5 pb-5">
+            <footer>
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                        <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="text-uppercase text-white">our adress</h5>
+                        <ul class="list-unstyled text-small">
+                            <li>
+                                <a class="text-white " href="#">Cool stuff</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Random feature</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Team feature</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Stuff for developers</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Another one</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Last time</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="text-uppercase text-white">Quick links</h5>
+                        <ul class="list-unstyled text-small">
+                            <li>
+                                <a class="text-white " href="#">Resource</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Resource name</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Another resource</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Final resource</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 class="text-uppercase text-white">News letter</h5>
+                        <ul class="list-unstyled text-small">
+                            <li>
+                                <a class="text-white " href="#">Team</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Locations</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Privacy</a>
+                            </li>
+                            <li>
+                                <a class="text-white " href="#">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+    </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+    crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js "></script>
+
+</html>
