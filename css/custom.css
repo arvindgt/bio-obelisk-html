@@ -3898,3 +3898,97 @@ body.mobile-menu-open .mobile-menu-wrapper {
 .heading-colors{
     color: #2d6282;
 }
+
+/* Title section */
+.page-title-content h2 {
+    text-align: center;
+    max-width: 800px;
+        margin: 50px auto 0;
+    font-size: 36px;
+    font-weight: 800;
+}
+.page-title-area {
+    background-color: #f8f9f8;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-top: 98px;
+}
+.page-title-content ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.page-title-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    color: #221638;
+    font-size: 16px;
+    font-weight: 600;
+}
+.page-title-content ul li:before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+    background-color: #696969;
+    height: 15px;
+    width: 1px;
+}
+.page-title-content ul li a {
+    color: #606060;
+    display: block;
+    font-weight: 500;
+}
+.page-title-content ul li:last-child {
+    margin-right: 0;
+}
+.default-btn {
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    background-color: var(--bio-color);
+    -moz-transition: .5s;
+    transition: .5s;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 11px 30px 11px 55px;
+}
+.default-btn span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #221638;
+    -moz-transition: width .5s ease-in-out,height .5s ease-in-out;
+    transition: width .5s ease-in-out,height .5s ease-in-out;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    border-radius: 5px;
+}
+.default-btn:hover span {
+    width: 225%;
+    height: 562.5px;
+}
+.default-btn:hover {
+    color: #fff;
+}
+.pt-100, .ptb-100 {
+    padding-top: 100px;
+}
+.ptb-100 {
+    padding-bottom: 100px;
+}
